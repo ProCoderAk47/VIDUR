@@ -1,0 +1,98 @@
+# ---------------------------------------------------------
+# Node / React / Vite
+# ---------------------------------------------------------
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Vite cache
+vite.config.ts.timestamp*
+.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+
+# ---------------------------------------------------------
+# Tailwind CSS
+# ---------------------------------------------------------
+# Tailwind generated files (if using CLI output)
+*.css.map
+
+
+# ---------------------------------------------------------
+# Python
+# ---------------------------------------------------------
+
+# Byte compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.env/
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+*.sqlite3
+*.log
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Pylint
+pylint-report.txt
+pylint-score.txt
+
+
+# ---------------------------------------------------------
+# Misc tools
+# ---------------------------------------------------------
+
+# Local environment files
+*.local
+
+# Temporary files
+*.tmp
+*.temp

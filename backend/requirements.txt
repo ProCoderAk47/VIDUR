@@ -1,0 +1,59 @@
+# Core Web Framework
+Flask
+flask-jwt-extended
+flask-sqlalchemy
+flask-cors
+Werkzeug
+
+# Database
+SQLAlchemy
+
+# LLM & AI
+#ctransformers>=0.2.27          # GGUF loader
+#huggingface-hub>=0.23.0        # For hf_hub_download
+#transformers>=4.36.0
+# local GGUF/ctransformers not required when using OpenAI; keep if you still want local models
+# ctransformers>=0.2.27
+# huggingface-hub>=0.23.0
+# torch==2.1.0+cu121
+# torchaudio==2.1.0+cu121   # Same
+# torchvision==0.16.0+cu121 
+# peft>=0.7.0
+# sentencepiece>=0.1.99
+# safetensors>=0.4.0
+
+# Document Processing
+pdfplumber>=0.10.3
+#pdf2image>=1.16.3
+pytesseract>=0.3.10
+# Pillow>=10.0.0
+python-docx>=0.8.11
+
+# Audio & Video Processing
+# librosa>=0.10.0
+# moviepy>=1.0.3
+# numpy>=1.24.0
+
+# API & LLM Integration
+google-generativeai>=0.3.0
+requests>=2.31.0
+tiktoken>=0.4.0
+langchain>=0.1.0
+chromadb>=0.4.0
+
+# Data Processing
+# pandas>=2.1.0
+# python-dateutil>=2.8.2
+# datasets
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-flask>=1.2.0
+
+# Utilities
+python-dotenv>=1.0.0
+logging-config>=0.5.0
+
+# Deployment
+gunicorn>=21.2.0
